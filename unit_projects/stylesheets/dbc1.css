@@ -1,0 +1,18 @@
+dbc1.html { property: dbc1.css }
+
+		body{
+			background-color: #58fad0;
+		}
+
+		p{
+			font-family: verdana; 
+			color: grey;
+		}
+		
+		ul{
+			color:maroon;
+		}
+		
+		ol{
+			color:orange;
+	}
