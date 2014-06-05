@@ -70,8 +70,11 @@ body{
 
 .sidebar{
 	float:left;
-	width:20em;
+	width:50px;
 	background-color:grey;
 	position:absolute;
+	top:0;
+	bottom:0;
+	Left:0;
 	
 }
