@@ -1,7 +1,7 @@
 week1_technical.html { property: style_blog(WWJBT).css}
 
 body{
-	background-image: url(https://github.com/jaycdave88/jaycdave88.github.io/blob/master/Blog_posts/backgrounds.jpg);
+	background-image: url(backgrounds.jpg);
 	background-repeat: repeat;
 	background-position: center;
 	background-size: 100%;
