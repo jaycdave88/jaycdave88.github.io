@@ -1,0 +1,74 @@
+dbc2.html { property: dbc2.css }
+
+body{
+	background-color: #cccccc;
+	font-family: comic,arial,sans-serif;
+}
+.header {
+	width: 100%;
+	margin:0 auto;
+	height: 23px;
+	background-color: grey;
+	text-align:center;
+	position: fixed;
+	color: white;
+	margin-bottom-bottom: 10px;
+
+}
+.content{
+	margin:0 auto;
+	height: 250px;
+	background-color: black;
+	text-align:left;
+	color: white;
+	margin-bottom: 35px;
+	padding: 5px;
+	width: 100%;
+	float: center;
+	
+}
+.sidebar{
+	border: solid;
+    float:right;
+    margin-right:-400px;
+    width:120px;
+    position: fixed;
+    width: 100px;
+    color: white;
+    background-color: grey;
+    top: 400px;
+
+
+}
+.footer{
+	width: 100%;
+	margin:0 auto;
+	position: absolute;
+	bottom: 0;
+	height: 15px;
+	margin-top: 40px;
+	background-color: grey;
+	text-align:center;
+	position: fixed;
+	color: white;
+}
+.image{
+	position: right;
+	float: right;
+	padding: 0px;
+
+}
+
+a:visited{
+	color: red;
+}
+p{
+	position: absolute;
+	background: black;
+	color: white;
+	top: 600px;
+	right:-2;
+	
+}
+
+  
