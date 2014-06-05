@@ -79,3 +79,15 @@ body{
 	margin:8px;
 	color:white;
 }
+
+.word{
+	float:left;
+	width:100px;
+	background-color:grey;
+	position:absolute;
+	top:0;
+	bottom:130px;
+	left:0;
+	margin:8px;
+	color:white;	
+}
