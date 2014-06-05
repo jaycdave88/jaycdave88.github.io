@@ -82,7 +82,7 @@ body{
 
 .word{
 	float:left;
-	width:100px;
+	width:80px;
 	background-color:grey;
 	position:relative;
 	top:0;
