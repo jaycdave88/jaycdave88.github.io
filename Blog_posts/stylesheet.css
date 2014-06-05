@@ -80,7 +80,7 @@ body{
 	color:white;
 }
 
-.word{
+.word:underline{
 	float:left;
 	width:70px;
 	background-color:grey;
@@ -92,5 +92,6 @@ body{
 	color:white;
 	font-size:18px;
 	font-family:arial;
+	
 
 }
