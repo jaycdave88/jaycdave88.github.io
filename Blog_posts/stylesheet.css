@@ -67,3 +67,11 @@ body{
 	position: fixed;
 	color: white;
 }
+
+.sidebar{
+	float:left;
+	width:20em;
+	background-color:grey;
+	position:absolute;
+	
+}
