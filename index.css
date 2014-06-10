@@ -1,0 +1,32 @@
+index.html { property: index.css}
+
+html{
+	background-color: #DCD0C0;
+}
+
+h1{
+	color: #DA635D;
+	font-family: Helvetica;
+}
+
+h2{
+	color: #4E4E56;
+	font-family: Helvetica;
+}
+
+
+.middle-content {
+	text-align: center;
+    width: 100%;
+}
+
+ul{
+	font-family: helvetica;
+	display: inline-block;
+	color: #4E4E56;
+}
+p{
+	font-size: 1.125em;
+	font-family: Helvetica;
+	color: #DA635D;
+}
