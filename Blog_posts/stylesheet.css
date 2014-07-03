@@ -44,7 +44,7 @@ body{
 	width:300px;
     position:relative;
  	text-align: left;
-   margin-right: auto;
+   	margin-right: auto;
     margin-left:auto;
 	margin-bottom:auto;
     
@@ -101,6 +101,42 @@ body{
 	margin:8px;
 	color:white;
 	margin-bottom: -1780px;}
+
+.sidebar_4C{
+	float:left;
+	width:100px;
+	background-color:#64a70b;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:8px;
+	color:white;
+	margin-bottom: -1180px;}
+
+.sidebar_3T{
+	float:left;
+	width:100px;
+	background-color:#64a70b;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:8px;
+	color:white;
+	margin-bottom: -1180px;}
+
+.sidebar_2T{
+	float:left;
+	width:100px;
+	background-color:#64a70b;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:8px;
+	color:white;
+	margin-bottom: -1020px;}
 
 .word{
 	float:left;
