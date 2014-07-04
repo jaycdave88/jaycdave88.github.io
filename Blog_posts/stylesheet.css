@@ -89,6 +89,17 @@ body{
 	margin-bottom: -900px;
 	
 }
+.sidebar_5T{
+	float:left;
+	width:100px;
+	background-color:#64a70b;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:8px;
+	color:white;
+	margin-bottom: -2200px;}
 
 .sidebar_5{
 	float:left;
