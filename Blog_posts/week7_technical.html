@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>W7: Technical Blog </title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+		<div class ="head_name">
+			SQL Injection 
+		</div>
+
+		<div class="head_name2">
+			What is it? Why it is a problem? and how to combat it
+			
+		</div>
+	<br>
+		<div class ="sidebar_7T">
+		</div>
+	<br>
+		<div class="word">
+			Links
+		</div>
+	<br>
+		<div class="link">
+		<a href="http://jaycdave88.github.io/index.html" target="_blank">Home</a>
+		
+		</div>
+	<br>
+		<div class="p">
+			<p>Structured Query Language (SQL) is used to query, operate and administer databases systems such as Microsoft SQL Server, Oracle, or MySQL. What is a database? A database is just a collection of data. Database systems are commonly used to provide backend functionality to many types of web applications.</p>
+
+			<p>SQL Injection attacks consist of insertion of &#34;injection&#34; of a SQL query via the input data from the client to the application.  How does SQL Injection happen?  User-supplied data is often used to dynamically build SQL statements that interact directly with a database. A SQL injection attack is when SQL is attacked, that is aimed at subverting the original intent of application by submitting user attacker- SQL statements, which go directly to the backend database.</p>
+
+			<p>If you haven&#39;t guessed by now, that is very bad! The ramifications of a successful SQL injection attack can range from authentication bypass, information disclosure, and compromised data integrity, compromised availability of data, and remote command execution. (Below I will sum of what each of these means:)</p>
+
+
+				<ul>
+				<li>Authentication Bypass: Allows the attacker to bypass the application credentials, without supplying a valid username and password.</li>
+				<li>Information Disclosure: Allows the attacker to access information, either directly or indirectly.</li>
+				<li>Compromised Data Integrity: Attacker can change or deface a web page or add malicious content to sites.</li>
+				<li>Remote Command Execution: Allows the attacker to compromise the host operating system.
+				</li>
+				
+
+			<p>SQL Injection can cause havoc to a database, however they&#39;re two complementary and successful methods for mitigating SQL Injection attacks.  Parameterized queries using bound and careful use of parameterized stored procedures.</p>
+
+			<p>The first one is to parameterize queries using bound, (typed parameters). What does that mean? That pretty much means, &#34;don&#39;t keep all your eggs in one basket&#34; keep the query and data separate through the use of placeholders, (aka &#34;bound&#34;) parameters.</p> 
+
+			<p>The second way, careful use of parameterized stored procedures, is an effective mechanism to avoid most forms of SQL Injection. In combination with parameterized bound queries, it is very unlikely that SQL injection will occur within your application.</p>
+
+			<p>Some good things to keep in mind: </p>
+
+			<ul>
+			<li>Always use accounts with the minimum privilege necessary for the application at hand, never &#34;sa&#34;,&#34;dba&#34;,&#34;admin&#34; or the equivalent. </li>
+			<li>Avoid using dynamic table names if possible</li>
+			<li>If you have a dynamic table name, do NOT accept them from the user
+			</li>
+			</ul>
+
+<br>
+<br>
+<br>
+
+		</div>
+
+	<div class="footer">
+			W.W.J.B.N(What WIll Jay Blog Next?)
+		</div>
+
+
+</body>
+</html>
+
