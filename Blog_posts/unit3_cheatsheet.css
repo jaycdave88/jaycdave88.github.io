@@ -1,0 +1,137 @@
+body{
+	background-image: url();
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: #F8E9D5;
+	width: 100%;
+	height: 100%;
+	font-family: helvetica;
+	}
+
+.head_name{
+	width: 100%;
+	position: relative;
+	background-color: #A5C5AF;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 25px;
+	color: #AA7570;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+.head_name2{
+	width: 100%;
+	font-family:arial;
+	color: #64a70b;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 15px;
+	top: 60px;
+	position: absolute;
+	margin-top: -16px;
+}
+
+.p{
+	font-family: Helvetica;
+	color:#3D4048;
+	font-size: 18px;
+	top: 100px;
+	clear: right;
+	width:300px;
+    position:relative;
+ 	text-align: left;
+   	margin-right: auto;
+    margin-left:auto;
+	margin-bottom:auto;
+	margin-top: -100px;
+    }
+
+    .footer{
+	position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px; 
+   background-color: #A5C5AF;
+	margin:0 auto;
+	position: absolute;
+	bottom: 0;
+	
+	margin-top: 40px;
+	background-color: #A5C5AF;
+	text-align:center;
+	position: fixed;
+	color: white;
+	font-family: helvetica;
+	margin-left: -8px;
+}
+.sidebar{
+	float:right;
+	width:100px;
+	background-color:#A5C5AF;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	margin:8px;
+	color:white;
+	margin-bottom: -2400px;
+	margin-left: -5px;
+}
+
+.word{
+	float:left;
+	width:70px;
+	background-color:#A5C5AF;
+	position:relative;
+	top:30px;
+	bottom:350px;
+	left:0;
+	margin:25px;
+	color:white;
+	font-size:18px;
+	font-family:arial;
+	margin-left: -0px;
+	padding-left: 8px;
+
+
+}
+.link{
+	float:left;
+	width:70px;
+	background-color:#A5C5AF;
+	position:relative;
+	top:65px;
+	bottom:100px;
+	left:-125px;
+	margin:25px;
+	color:white;
+	font-size:16px;
+	font-family:arial;
+	margin-right: 50px;
+	text-decoration: none;
+	font-family: helvetica;
+	font-weight: bold;
+	font-variant: un
+
+}
+
+.img{
+	
+	margin-left: 450px;
+	margin-top: -40px;
+}
+
+.code{
+	font-weight: bold;
+	font-family: times;
+	background-color: white;
+	font-size: 20px;
+
+}
+.cite{
+	font-style: italic;
+	color: blue;
+	text-decoration: underline;
+}
