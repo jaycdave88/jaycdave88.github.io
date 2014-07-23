@@ -123,7 +123,7 @@ position:    relative;
 
 
 /*hover*/
-.sf-menu li:hoverls ul,.sf-menu li.sfHover ul {
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {
 left:0;
 top:2.5em; /* match top ul list item height */
 z-index:    99;
