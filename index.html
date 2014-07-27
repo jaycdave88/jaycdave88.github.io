@@ -6,6 +6,21 @@
       <title>Welcome to My page</title>
       <link rel="stylesheet" type="text/css" href="index.css">
       <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Welcome to My page</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function() {
+          $('.blogs').hide();
+          $('.current').click(function() {
+            $('.blogs').slideToggle(500);
+          })
+        });
+      </script>
+
 
   </head>
   <br>
@@ -38,7 +53,7 @@
     </li>
      
      
-        <li class="first"> <a class"current" href="index.html">Cultural Blog</a>
+        <li class="first"> <a class="current" href="index.html">Cultural Blog</a>
       <ul>
       <li><a href="http://jaycdave88.github.io/Blog_posts/week1_cultural.html">Week 1</a></li>
 
@@ -109,7 +124,20 @@
               Thanks for stoping by!!
 
           </div>
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+    <script type="text/javascript">
+      
+      $( function() {
+        
+        $( '#cd-dropdown' ).dropdown( {
+          gutter : 5
+        } );
+
+      });
+
+    </script>
 </div>
-  </body>
+         
   </html>
 
