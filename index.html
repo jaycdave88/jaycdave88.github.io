@@ -1,5 +1,7 @@
 <!DOCTYPE HTML>
 
+<!DOCTYPE HTML>
+
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,69 +12,103 @@
       <title>Welcome to My page</title>
       <link rel="stylesheet" type="text/css" href="index.css">
       <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+   
 
-      <script type="text/javascript">
-        $(document).ready(function() {
-          $('.blogs').hide();
-          $('.current').click(function() {
-            $('.blogs').show(500);
-          })
-        });
-      </script>
 
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+          <script type="text/javascript">
+          $(document).ready(function() {
+            $('.blogs li').hide();
+            $('.tech_blog li').hide();
+            $('.cheat_blog li').hide();
+
+            $('.currentC').click(function(){
+             $('.blogs li').toggle(500)
+            });
+            $('.currentT').click(function(){
+             $('.tech_blog li').toggle(500)
+            });
+            $('.currentCC').click(function(){
+             $('.cheat_blog li').toggle(500)
+            });
+          });
+          </script>
 
   </head>
   <br>
   <br>
 <div class="whitespace">
- <header>
-
-
+<!--  <header> -->
+ 
      
-
+  <header>
     <ul class="sf-menu">
      
-        <li class="first"> <a class="current" href="index.html">Technical Blog</a>
+        <li class="currentT"><a>Technical Blog</a></li>
+        <li class="currentC"><a>Cultural Blog</a></li>
+        <li class="currentCC"> <a>Cheat Sheet</a></li>
+    </ul>
+  </header>
      
-    <ul>
+  <nav>   
+    <ul class="tech_blog">
      
-        <li class=""><a href="http://jaycdave88.github.io/Blog_posts/week1_technical.html">Week 1</a></li>
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week1_technical.html">Week 1</a></li>
 
-        <li><a href="http://jaycdave88.github.io/Blog_posts/week2_technical.html">Week 2</a></li>
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week2_technical.html">Week 2</a></li>
 
-      <li><a href="http://jaycdave88.github.io/Blog_posts/week3_technical.html">Week 3</a></li>
-     <li><a href="http://jaycdave88.github.io/Blog_posts/week4_technical.html">Week 4</a></li>
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week3_technical.html">Week 3</a></li>
 
-     <li><a href="http://jaycdave88.github.io/Blog_posts/week5_technical.html">Week 5</a></li>
-     <li><a href="http://jaycdave88.github.io/Blog_posts/week6_technical.html">Week 6</a></li>
-     <li><a href="http://jaycdave88.github.io/Blog_posts/week7_technical.html">Week 7</a></li>
-     <li><a href="http://jaycdave88.github.io/Blog_posts/week8_technical.html">Week 8</a></li>
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week4_technical.html">Week 4</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week5_technical.html">Week 5</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week6_technical.html">Week 6</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week7_technical.html">Week 7</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week8_technical.html">Week 8</a></li>
 
     </ul>
-    </li>
      
      
-        <li class="first"> <a class="current" href="index.html">Cultural Blog</a>
-      <ul>
-      <li><a href="http://jaycdave88.github.io/Blog_posts/week1_cultural.html">Week 1</a></li>
+            
 
-      <li><a href="http://jaycdave88.github.io/Blog_posts/week3_cultural.html">Week 3</a></li>
-       <li><a href="http://jaycdave88.github.io/Blog_posts/week4_cutural.html">Week 4</a></li>
-       <li><a href="http://jaycdave88.github.io/Blog_posts/week5_cultural.html">Week 5</a></li>
-    <li><a href="http://jaycdave88.github.io/Blog_posts/week6_cultural.html">Week 6</a></li>
-    <li><a href="http://jaycdave88.github.io/Blog_posts/week7_cultural.html">Week 7</a></li>
-    <li><a href="http://jaycdave88.github.io/Blog_posts/week8_cultural_blog.html">Week 8</a></li>
-      </ul>
+    <ul class="blogs">
 
-      
-    </li>
-     <li class="first"> <a class"current" href="index.html">Cheat Sheet</a>
-      <ul>
-      <li><a href="http://jaycdave88.github.io/Blog_posts/unit3_cheatsheet.html">Ruby</a></li>
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week1_cultural.html">Week 1</a></li>
 
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week3_cultural.html">Week 3</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week4_cutural.html">Week 4</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week5_cultural.html">Week 5</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week6_cultural.html">Week 6</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week7_cultural.html">Week 7</a></li>
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/week8_cultural_blog.html">Week 8</a></li>
+
+    </ul>
+
+
+            
+    <ul class="cheat_blog">
+
+            <li><a href="http://jaycdave88.github.io/Blog_posts/unit3_cheatsheet.html">Ruby</a></li>
+
+    </ul>
+  
+
+<ul class="pusher">
+</ul>
+
+</nav>
               
-       </header>  
+<!-- </header>  --> 
 </div>
 
        <br>
@@ -101,20 +137,20 @@
 
   <br>
   <div class="social_link">
-  <a href="https://www.facebook.com/Gsxr600soup"><img src="http://i62.tinypic.com/50qr6v.png"/></a>
-  <a href="https://twitter.com/J_cd88"><img src="http://i59.tinypic.com/5eb9kg.png"/></a>
-  <a href="https://www.linkedin.com/in/jaycdave"><img src="http://i62.tinypic.com/2n1u8tz.png"/></a>
-   <a href="https://www.google.com/+JayDave88"><img src="http://i62.tinypic.com/2z6usyt.png"/></a>
+  <a href="https://www.facebook.com/Gsxr600soup"><img src="http://i59.tinypic.com/9sazo5.png"/></a>
+  <a href="https://twitter.com/J_cd88"><img src="http://i60.tinypic.com/2aaeo1w.png"/></a>
+  <a href="https://www.linkedin.com/in/jaycdave"><img src="http://i60.tinypic.com/1075ift.png"/></a>
+   <a href="https://www.google.com/+JayDave88"><img src="http://i57.tinypic.com/1449nut.png"/></a>
    <br>
-  <a href="mailto:jaycdave@gmail.com"><img src="http://i62.tinypic.com/2zs9wdi.png"/></a>
-  <a href="https://wwjbn.wordpress.com/"><img src="http://i61.tinypic.com/wl5a1d.png"/></a>
-  <a href="https://github.com/jaycdave88"><img src="http://i62.tinypic.com/1zywzdk.png"/></a>
+  <a href="mailto:jaycdave@gmail.com"><img src="http://wsd.dli.mt.gov/local/livingston/images/email_icon_40x40.gif"/></a>
+  <a href="https://wwjbn.wordpress.com/"><img src="http://i62.tinypic.com/1zvwt2d.png"/></a>
+  <a href="https://github.com/jaycdave88"><img src="http://i62.tinypic.com/2lse2o7.png"/></a>
 <br>
 <br>
 
   <br>
   <div class="copyright">
-&#169;Jay C Dav&egrave;
+    <p1>&#169;Jay C Dav&egrave;</p1>
   </div>
   <br>
           
@@ -122,20 +158,10 @@
 
    <div class='footer'>
               Thanks for stoping by!!
+         
 
           </div>
-          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
-    <script type="text/javascript">
-      
-      $( function() {
-        
-        $( '#cd-dropdown' ).dropdown( {
-          gutter : 5
-        } );
-
-      });
-
+          
     </script>
 </div>
          
