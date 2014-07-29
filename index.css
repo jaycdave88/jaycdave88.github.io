@@ -63,15 +63,20 @@ p{
 header {
     width: 100%;
     margin: 0 auto;
-    
+    /*background-color: red;*/
     height: 2em;
 }
+
 
 .copyright{
     color: black;
     font-size: 18px;
     font-family: Helvetica;
     font-weight: bold;
+}
+
+.cheat{
+   color:black;
 }
 
 
@@ -92,31 +97,19 @@ width:10em;
 }
 
 nav {
-    width: 960px;
+    width: 100%;
     margin: auto;
     
     margin: -3;
 }
 /*--------------------*/
 /*-------------------*/
-.pusher{
-    position: relative;
-    vertical-align: text-top;
-    margin: 0 auto;
-}
-.pusher a{
-    text-decoration: none;
-    color: black;
-}
-.pusher li{
-    display: block;
-    text-align: center;
-    margin: 0 10px 0px 0px;
-}
+
+
 
 /*-----------------------*/
 /*------------------------*/
-.cheat_blog{
+/*.cheat_blog{
     position: relative;
     vertical-align: text-top;
     margin: 0 auto;
@@ -130,9 +123,9 @@ nav {
 .cheat_blog li{
     display: block;
     text-align: center;
-    margin: 0 15px 0px 0px;
+    margin: 0 15px 0px 0px;*/
 
-}
+/*}*/
 /*----------------------*/
 /*----------------------,*/
 
@@ -145,12 +138,14 @@ nav {
 .tech_blog a{
     text-decoration: none;
     color: black;
+    font-size: 16px;
+
 
 }
 .tech_blog li{
     display: block;
     text-align: center;
-    margin: 0 110px 0px 0px; 
+    margin: 0 20px 0px 0px;
 }
 
 /*------------------------------
@@ -165,6 +160,7 @@ nav {
     display: block;
     text-align: center;
     margin: 0 25px 0 0; 
+    font-size: 16px;
 
 
 }
@@ -172,11 +168,13 @@ nav {
 .blogs a  {
     text-decoration: none;
     color: black;
+   margin-right: 20px;
 }
 /*-------------------------------*/
 /*-------------------------------*/
 .sf-menu .currentT {
     display: inline;
+
 }
 .sf-menu .currentC {
     display: inline;
@@ -328,9 +326,9 @@ color:white;
 }
 
 /*iPhone vertical view*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 25em) {
     #main_nav {
-        margin-top: -2%;
+        margin-top: -5%;
         padding-top: 0;
         line-height: 0;
     }
@@ -340,31 +338,6 @@ color:white;
 
 /*-----------------------------*/
 
-
-/** { margin:0;
-    padding:0;
-}
-body { background:rgb(74,81,85); }
-div#menu { margin:5px auto; }
-
-
-div#menu ul.menu li {
-    display: block;
-}
-
-div#menu ul.menu ul ul li {
-    padding-left: 30px;
-}
-
-div {
-    font:11px 'Trebuchet MS';
-    color:#fff;
-    text-indent:30px;
-    padding:40px 0 0 0;
-
-}
-div a { color:#9acd32; }
-div a:hover { color:#fff; }*/
 
 
 

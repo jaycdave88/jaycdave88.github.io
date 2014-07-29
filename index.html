@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE HTML>
 
 <html>
@@ -9,41 +8,45 @@
       <link rel="stylesheet" type="text/css" href="index.css">
       <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Welcome to My page</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACJUlEQVQ4T21TTWtTQRQ9M0l8tLVJ8xMspXQhgtC1Ll0IroqUEPshSsGFX9hFaxA/Vu4LLrVNYoPWRn+F/gZFUBcFa6immObjzcz1vpnpy3vUgQfz5s4999xzzwhjDCGxSGusHa1iT++DMhqSchAZYFpMYX30UfKq3YskwMrBLfTkH2gJVPNVe8GAf7iEFoTlwxLO6nNYK67HQDHAwmE5ugchXEwjh/r4S7s/MD9xp3OfdwTBgIYItXx9yGCpdR0mGCQb4dIaW4WGPWv23qEZNuM4McAZM4WnE08gVN/QYq9kkZOLqWGz8NoDfGCAt+C8mGEoBtgeeQOx3J6jEKdcru3Bb0mzDtsOoMsM1JDBcaFJOQlR3i8RglRxh0WKAVwL73s7zGDXKhBXiAKG/8ptBvArSVEYxS38XwNXgPOlSQMkeTABVIu1lAauS07yehk5gFhsLZDKKiuO4CD5oCAWMe9FtBrspulbFhriSmeO8sqL6KkJNo3zwSvL4EV3Ax/VpxNCzchpdmJo6NpfHqMcjjHqT/K3WXAt2DilxzzIKDSChrPyzd9L6PPB8QijJK0k6sUtB3DEAJG/E2rPylncPn1v+BaclXlQ3ssaXdTGd/CsXcHX3DeQdgaJ7hjWp+49YhlE1owSK61VfAm+47yYwYOxCu7+eoj2yB4T88n8cC9mL+DG2EpMJvUa7akGnnce43P4A2GuD5Ia2TDApeAy5kevnhDyH2o0FD1daLkQAAAAAElFTkSuQmCC">
+   
+   
 
 
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
           <script type="text/javascript">
-        $(document).ready(function() {
+          $(document).ready(function() {
+
             $('.blogs li').hide();
             $('.tech_blog li').hide();
             $('.cheat_blog li').hide();
 
             $('.currentC').click(function(){
-             $('.blogs li').toggle(500)
-            })
+             $('.blogs li').fadeToggle(500)
+            });
             $('.currentT').click(function(){
-             $('.tech_blog li').toggle(500)
-            })
-            $('.currentCC').click(function(){
-             $('.cheat_blog li').toggle(500)
-            })
-        });
+             $('.tech_blog li').fadeToggle(500)
+            });
+            // $('.currentCC').click(function(){
+            //  $('.cheat_blog li').toggle(500)
+            
+          });
           </script>
 
   </head>
   <br>
   <br>
 <div class="whitespace">
-<!--  <header> -->
  
-     
   <header>
     <ul class="sf-menu">
      
         <li class="currentT"><a>Technical Blog</a></li>
-        <li class="currentC"><a>Cultural Blog</a></li>
-        <li class="currentCC"> <a>Cheat Sheet</a></li>
+        <li class="currentC"><a>Cultural Blog</a></li><!-- 
+        <li class="currentCC"> <a>Cheat Sheet</a></li> -->
     </ul>
   </header>
      
@@ -65,6 +68,8 @@
             <li><a href="http://jaycdave88.github.io/Blog_posts/week7_technical.html">Week 7</a></li>
 
             <li><a href="http://jaycdave88.github.io/Blog_posts/week8_technical.html">Week 8</a></li>
+
+       <u><i><li><a href="http://jaycdave88.github.io/Blog_posts/unit3_cheatsheet.html">Cheat Sheet Ruby</a></li></i></u>
 
     </ul>
      
@@ -91,19 +96,15 @@
 
 
             
-    <ul class="cheat_blog">
+<!--     <ul class="cheat_blog"> -->
 
-            <li><a href="http://jaycdave88.github.io/Blog_posts/unit3_cheatsheet.html">Ruby</a></li>
+          
 
     </ul>
-  
-
-<ul class="pusher">
-</ul>
 
 </nav>
               
-<!-- </header>  --> 
+
 </div>
 
        <br>
