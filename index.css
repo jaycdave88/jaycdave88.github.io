@@ -1,8 +1,6 @@
 index.html { property: index.css}
 
-html{
-    position: fixed;
-}
+
 .content{
 background: url('http://i58.tinypic.com/288qnvq.jpg') no-repeat center center fixed; 
  -webkit-background-size: cover;
