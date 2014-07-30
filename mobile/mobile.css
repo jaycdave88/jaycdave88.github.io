@@ -7,7 +7,7 @@
 #cssmenu ul,
 #cssmenu li,
 #cssmenu a {
-  width: 400px;
+  width: 420px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,7 +20,7 @@
   position: relative;
 }
 #cssmenu {
-  width: 400px;
+  width: 420px;
   border-bottom: 4px solid #656659;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
