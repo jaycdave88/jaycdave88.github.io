@@ -23,10 +23,11 @@ body{
 	color: #4E4E56;
 	position: relative;
 	background-color: #4E4E56;
-	margin: -21px 0px 0px -10px;
 	text-align: center;
 	font-size: 45px;
 	color: white;
+	bottom: 8px;
+
 
 	
 	
@@ -36,10 +37,11 @@ body{
 	font-family:arial;
 	color: #64a70b;
 	background-color: white;
-	margin: 50px 0 0 -16px ;
 	text-align: center;
 	font-size: 15px;
 	position: absolute;
+	background-color: white;
+
 
 
 }
@@ -51,10 +53,9 @@ body{
 	max-width:700px;
     position:relative;
  	text-align: left;
-   	margin-right: auto;
-    margin-left:auto;
-	margin-bottom:auto;
-	margin-top: -100px;
+ 	margin: 0 100px;
+   
+	
 	
 }
 
@@ -91,10 +92,9 @@ body{
 	bottom:0;
 	right:0;
 	left:0;
-	margin:8px;
 	color:white;
 	margin-bottom: -800px;
-	margin-left: -5px;
+	
 	
 }
 .sidebar_all_left{
@@ -104,7 +104,6 @@ body{
 	top:0;
 	bottom:0;
 	right:0;
-	margin:8px;
 	color:white;
 	margin-bottom: -800px;
 	margin-left: -5px;
@@ -168,7 +167,7 @@ margin-bottom: -1350px;
 	float:left;
 	width:70px;
 	background-color:#64a70b;
-	position:relative;
+	position:absolute;
 	top:30px;
 	bottom:350px;
 	left:0;
@@ -176,20 +175,18 @@ margin-bottom: -1350px;
 	color:white;
 	font-size:18px;
 	font-family:arial;
-	margin-left: -0px;
-	padding-left: 8px;
 	text-decoration: underline;
 
 
 }
+
 .link{
 	float:left;
-;
 	background-color:#64a70b;
 	position:relative;
-	top:65px;
-	left:-125px;
-	margin:25px;
+	top:20px;
+	text-align: center;
+	margin:15px;
 	font-size:16px;
 	font-family:arial;
 	font-family: helvetica;
@@ -212,6 +209,11 @@ margin-bottom: -1350px;
 	font-family: Consolas;
 
 }
+
+input{
+	cursor: pointer;
+}
+
 
 
 /*Smaller computer screen*/
