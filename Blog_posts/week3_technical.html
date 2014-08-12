@@ -2,43 +2,51 @@
 <html>
 <head>
 	<title>W3: Technical Blog </title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
+	<link rel="stylesheet" type="text/css" href="new_test.css">
+	<link rel="stylesheet" type="text/css" href="960.css">
+	<link rel="stylesheet" type="text/css" href="text.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
 
 	
 
-		<div class="head_name2">
+</head>
+
+<body>
+	<div class="container_12">
+		<div class="header grid_12">
+			JavaScript in Web Development
+		</div>
+
+		<div class="header_2 grid_12">
 			JavaScript's Popularity, JavaScript Strengths vs Limitations
-			 
-		</div>
-	<br>
-
-		<div class ="sidebar_all_right">
-
 		</div>
 
-		<div class ="sidebar_all_left">
+		<div class="date_time grid_12">
+
+		<font color="#000000">
+		<script type="text/javascript">
+			var d=new Date()
+			var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+			var monthname=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+			document.write(weekday[d.getDay()] + " ")
+			document.write(d.getDate() + ". ")
+			document.write(monthname[d.getMonth()] + " ")
+			document.write(d.getFullYear())
+		</script></font>
+
 
 		</div>
 
 
-			<div class ="head_name">
-		JavaScript in Web Development
-		</div>
-
-	<br>
-		<div class="word">
-			Links
-		</div>
-	<br>
-		<div class="link">
-		<a href="http://jaycdave88.github.io/index.html">Home</a>
-		
-		</div>
-	<br>
-	<div class="p">
-		<p>JavaScript is slowly taking over! Dont be alarmed its for the best! JavaScript or JS for short, which I will be calling it from this point on. JS is very popular in web development, JS works on all devices and in all browsers, (i.e. Chrome, Safari, FireFox, etc.) which pretty much guaranteeing that your HTML page will always render. Also since so many people out there already are using JS it makes information and education material readily available, also JS tools and frameworks seem to be everywhere now a day.</p>
+		<div class="main grid_12">
+			<div class="left grid_2">
+				Links
+			<div class="link">
+				<a href="http://jaycdave88.github.io/index.html">Home</a>
+			</div>
+			</div>
+			<div class="middle grid_8">
+				<p>JavaScript is slowly taking over! Dont be alarmed its for the best! JavaScript or JS for short, which I will be calling it from this point on. JS is very popular in web development, JS works on all devices and in all browsers, (i.e. Chrome, Safari, FireFox, etc.) which pretty much guaranteeing that your HTML page will always render. Also since so many people out there already are using JS it makes information and education material readily available, also JS tools and frameworks seem to be everywhere now a day.</p>
 	
 
 		
@@ -73,25 +81,38 @@
 			
 			<b><i><p>6. JavaScript cannot protect your source or images</p></i></b>
 			<br>
-		<br>
-		<br>
+				
+			</div>
+			<div class="right grid_2">
+			
+			</div>
 		</div>
-</div>
 
-	<div class="footer">
-		<form 
-			method="get" 
-			action="http://www.willmaster.com/">
-		<input 
-			style="background-color:#64a70b; color:white; border:3px double black;" 
-			type="submit" 
-			value="CLICK TO VIEW NEXT BLOG">
-		</form>
+
+			<div class="footer grid_12">
+
+				
+			<!-- <div class="click">
+				<form 
+					method="get" 
+					action="http://www.willmaster.com/">
+					<input 
+					style="background-color:#64a70b; 	color:white; border:3px double black;" 
+					type="submit" 
+					value="CLICK TO VIEW NEXT BLOG">
+				</form>
+			</div> -->
 
 			&#169; Jay C Dav&#232;
 
-		</div>
 
+			<p><input type="button" name="b1" value="Prev: Blog" onclick="location.href='http://jaycdave88.github.io/Blog_posts/week2_technical.html'">
+
+			<input type="button" name="b1" value="Next: Blog" onclick="location.href='http://jaycdave88.github.io/Blog_posts/week4_technical.html'"></p>
+	
+			
+		</div>
+	</div>
 
 
 
